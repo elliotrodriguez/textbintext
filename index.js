@@ -14,5 +14,19 @@ module.exports = {
             }
         }
         return binaryValue.trim();
+    },
+    toText: function (strBinaryToConvert, hasWhiteSpace) {
+        var intAsciiNumberInBaseTen = 0, binaryNumbersArray, intArrayCounter, stringToReturn = '';
+        if (hasWhiteSpace) {
+            binaryNumbersArray = strBinaryToConvert.split(' ');
+            if (binaryNumbersArray.length > 0) {
+                for (intArrayCounter = 0; intArrayCounter !== binaryNumbersArray.length; intArrayCounter += 1) {
+                    intAsciiNumberInBaseTen = parseInt(binaryNumbersArray[intArrayCounter], 2);
+                    stringToReturn += String.fromCharCode(intAsciiNumberInBaseTen);
+                }
+            }
+        }
+
+        return stringToReturn;
     }
 };
