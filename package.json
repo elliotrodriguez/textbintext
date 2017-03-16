@@ -1,0 +1,14 @@
+{
+  "name": "textbintext",
+  "version": "1.0.0",
+  "description": "Take a given string of ASCII characters, turn them into binary, or turn binary into ASCII text.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elliot Rodriguez <elliotrodriguez72@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "karma": "^1.5.0"
+  }
+}
