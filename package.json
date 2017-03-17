@@ -1,6 +1,6 @@
 {
   "name": "textbintext",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Take a given string of ASCII characters, turn them into binary, or turn binary into ASCII text.",
   "main": "index.js",
   "scripts": {
