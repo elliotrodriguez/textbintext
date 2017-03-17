@@ -5,7 +5,9 @@ A library that turns your ASCII text into binary, and back again if you like. No
 
 ## Installation
 
+```
 npm install textbintext --save
+```
 
 ## Usage
 
