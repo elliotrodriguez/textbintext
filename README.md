@@ -27,13 +27,16 @@ npm run test
 
 - Email your friends from a node app and pretend it came from SkyNet
 - Output random strings to your Johnny Five powered robot for kicks
-- Send a note to your parents/SO in binary numbers and convince them they have discovered a glitch in the matrix
+- Send a note to your parents/signficant other in binary numbers and convince them they have discovered a glitch in the matrix
+- Use an API like Twilio to write an app that sends you texts in binary numbers, decode it in front of your friends, and convince them you are receiving messages from Russian hackers by mistake
+
+What can **your** imagine dream up?
 
 ## Miscellaneous
 
 - If you input a binary string that is not correctly padded, you may get some unexpected results. YMMV.
-- As of now I don't know how long of a string you can use before something unexpected happens. It should be OK with anything less than the contents of War and Peace.
-- This was intended to be a fun, quick, back-of-the-envelope module that I was inspired to create when messing around with some string and number manipulations in JS one day. It could use some optimizations. 
+- As of now I don't know how long of a string you can use before something unexpected happens. It *should* be OK with anything less than the contents of War and Peace.
+- This was intended to be a fun, quick, back-of-the-envelope module that I was inspired to create when messing around with some string and number manipulations in JS one day. It could use some optimizations. It's active though, so please add issues for any weirdness you encounter while I was scribbling things down.
 
 ## Contributing
 
