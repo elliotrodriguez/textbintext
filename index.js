@@ -25,8 +25,20 @@ module.exports = {
                     stringToReturn += String.fromCharCode(intAsciiNumberInBaseTen);
                 }
             }
-        }
+	} else {
+	// split every 8 characters
+		var strBinLengthWithoutSpaces = strBinaryToConvert.length;
+		var binLengthOffset = strBinLengthWithoutSpaces % 8;
+		
+		for(var i = 0; i != strBinLengthWithoutSpaces; i += 8) {
+			var subStrItem = strBinaryToConvert.substr(i,8);
+			binaryNumbersArray.push(subStrItem);
+		}
+		
+	}
 
         return stringToReturn;
     }
-};
+}strBinaryToConvert.substr(i, i + 7);
+			binaryNumbersArray.push(subBinaryItem);
+			return;
