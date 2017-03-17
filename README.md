@@ -36,8 +36,8 @@ What can **your** imagine dream up?
 ## Miscellaneous
 
 - If you input a binary string that is not correctly padded, you may get some unexpected results. YMMV.
-- As of now I don't know how long of a string you can use before something unexpected happens. It *should* be OK with anything less than the contents of War and Peace.
-- This was intended to be a fun, quick, back-of-the-envelope module that I was inspired to create when messing around with some string and number manipulations in JS one day. It could use some optimizations. It's active though, so please add issues for any weirdness you encounter while I was scribbling things down.
+- As of now I don't know how long of a string you can use before something unexpected happens. It *should* be OK with anything less than the contents of War and Peace. I have experimented with strings of up to 100,000 characters and results have been good. 
+- This was intended to be a fun, quick, back-of-the-envelope module that I was inspired to create when messing around with some string and number manipulations in JS one day. It could use some optimizations so that eventually it can turn War and Peace into binary strings (because why not?). This project is active though, so please add issues for any weirdness you encounter while I was scribbling things down.
 
 ## Contributing
 
